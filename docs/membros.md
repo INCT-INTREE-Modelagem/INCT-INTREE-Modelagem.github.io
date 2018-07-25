@@ -25,8 +25,6 @@ Paulo Inácio Prado
 
 Vitor Rios
 
-{%site.data.members%}
-
 <ul>
 {% for member in site.data.members %}
   <li>
