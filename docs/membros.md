@@ -7,6 +7,17 @@ site.data.members
 Flora Bacelar
 
 Paulo Inácio Prado
+ <ul>
+    {% for member in site.data.members %}
+      {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras" %}
+        <li>
+          <a>
+            {{ member.name }}
+          </a>
+  </li>
+      {% endif %}
+    {% endfor %}
+</ul>
 
 ## Coordenação das atividades integradoras:
 Charles Santana
