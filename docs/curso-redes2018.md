@@ -2,8 +2,7 @@
 title: Teoria de Redes
 ---
 
-Professores: Hernane B.B. Pereira, Roberto L. S. Monteiro e alguns discentes que trabalham com redes
-
+Professores: Hernane B.B. Pereira
 Carga Horária: 20 horas
 
 Período: 16/08 a 30/08 de 2018
