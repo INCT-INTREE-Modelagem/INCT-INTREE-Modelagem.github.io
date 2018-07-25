@@ -15,6 +15,7 @@ site.data.members
       {% endfor %}
     </ul>
 {% endfor %}
+
 ...
 
 
@@ -36,15 +37,19 @@ site.data.members
 ## Coordenação das atividades integradoras:
 
 ...
+
 <ul>
     {% for member in site.data.members %}
-      {% if member.role == "Coordenação das atividades integradoras" AND member.status == "ativo" %}
+      {% if member.role == "Coordenação das atividades integradoras"  %}
+     {% ifmember.status == "ativo"%}
         <li>
               <a>{{ member.name }}<a/>  - {{member.Institution}}
         </li>
       {% endif %}
+      {% endif %}
     {% endfor %}
 </ul>
+
 ...
 ## Membros anteriores
 ...
