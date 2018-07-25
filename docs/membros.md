@@ -30,7 +30,7 @@ title: Membros do PI de Modelagem
     {% for member in site.data.members %}
       {% if member.status == "inativo" %}
         <li>
-          <a>{{ member.name }}<a/>  - {{member.Institution}}
+          {{ member.name }}  - {{member.Institution}}
         </li>
       {% endif %}
     {% endfor %}
