@@ -9,7 +9,7 @@ site.data.members
 {% for cat in membros %}
 <h2>{{ cat.name }}</h2>
     <ul>
-      {% assign items = cat.name | sort: 'order' %}
+      {% assign items = cat.name | sort: 'role' %}
       {% for item in items %}
         <li><a href="{{ item.website }}">{{ item.name }}</a></li>
       {% endfor %}
