@@ -36,11 +36,10 @@
 #           in the entry
 #      - Non-required attributes with blank values can be omitted completely.
 
-
 - name: Vitor Rios
   role: teste
   status: teste
   department: Ufba
   position: post-doc researcher
-  website:
-  photo:
+  website: x
+  photo: y
