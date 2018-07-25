@@ -8,9 +8,7 @@ site.data.members
     {% for member in site.data.members %}
       {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras" %}
         <li>
-          {{ member.name }}
-            
-           Instituição:{{member.institution}}
+          <a>{{ member.name }}<a/>  - Instituição: {{member.institution}}
           </li>
       {% endif %}
     {% endfor %}
