@@ -7,7 +7,7 @@ site.data.members
 
 <ul>
     {% for member in site.data.members %}
-      {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras" %}
+      {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras"  AND member.status == "ativo" %}
         <li>
           <a>{{ member.name }}<a/>  - {{member.Institution}}
         </li>
@@ -20,7 +20,7 @@ site.data.members
 
 <ul>
     {% for member in site.data.members %}
-      {% if member.role == "Coordenação das atividades integradoras" %}
+      {% if member.role == "Coordenação das atividades integradoras" AND member.status == "ativo" %}
         <li>
               <a>{{ member.name }}<a/>  - {{member.Institution}}
         </li>
@@ -28,3 +28,14 @@ site.data.members
     {% endfor %}
 </ul>
 
+## Membros anteriores
+
+<ul>
+    {% for member in site.data.members %}
+      {% if member.status == "inativo" %}
+        <li>
+          <a>{{ member.name }}<a/>  - {{member.Institution}}
+        </li>
+      {% endif %}
+    {% endfor %}
+</ul>
