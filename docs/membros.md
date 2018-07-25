@@ -1,5 +1,6 @@
 ---
 title: Membros do PI de Modelagem
+site.data.members
 ---
 
 ## Coordenação Geral:
@@ -23,3 +24,5 @@ Hernane Pereira
 Paulo Inácio Prado
 
 Vitor Rios
+
+{{site.data.members}}
