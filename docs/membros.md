@@ -4,8 +4,7 @@ site.data.members
 ---
 # Membros
 
-...
-{% assign membros = site.data.members | group_by: 'role' %}
+...{% assign membros = site.data.members | group_by: 'role' %}
 {% for cat in membros %}
 <h2>{{ cat.name }}</h2>
     <ul>
@@ -19,7 +18,7 @@ site.data.members
 {% endfor %}
 
 ## Coordenação Geral:
-...
+
 <ul>
     {% for member in site.data.members %}
       {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras"  AND member.status == "ativo" %}
