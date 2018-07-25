@@ -5,7 +5,7 @@ title: Membros do PI de Modelagem
 
 {% assign membros = site.data.members | group_by: 'role' %}
 {% for cat in membros %}
-{{ cat.name }}
+{{ site.data.members.name }}
 <ul>
     {% assign items = cat.name %}
     {% for item in items %}
