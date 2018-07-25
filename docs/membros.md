@@ -25,4 +25,4 @@ Paulo Inácio Prado
 
 Vitor Rios
 
-{{site.data.members}}
+{site.data.members}
