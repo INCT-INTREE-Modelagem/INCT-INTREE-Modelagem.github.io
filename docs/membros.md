@@ -12,6 +12,7 @@ title: Membros do PI de Modelagem
     {% endfor %}
 </ul>  
 
+## Coordenação das atividades integradoras
 <ul>
     {% for member in site.data.members %}  
       {% if member.role == "Coordenação das atividades integradoras"  %}  
