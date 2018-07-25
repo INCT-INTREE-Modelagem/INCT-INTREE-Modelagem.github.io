@@ -2,7 +2,7 @@
 title: Membros do PI de Modelagem
 site.data.members
 ---
-
+# Membros
 {% assign membros = site.data.members | group_by: 'role' %}
 {% for cat in membros %}
 <h2>{{ cat.name | capitalize }}</h2>
