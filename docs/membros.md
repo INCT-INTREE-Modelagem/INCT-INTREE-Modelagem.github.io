@@ -3,6 +3,8 @@ title: Membros do PI de Modelagem
 site.data.members
 ---
 # Membros
+
+...
 {% assign membros = site.data.members | group_by: 'role' %}
 {% for cat in membros %}
 <h2>{{ cat.name }}</h2>
@@ -13,13 +15,13 @@ site.data.members
       {% endfor %}
     </ul>
 {% endfor %}
-
+...
 
 
 
 
 ## Coordenação Geral:
-
+...
 <ul>
     {% for member in site.data.members %}
       {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras"  AND member.status == "ativo" %}
@@ -29,10 +31,11 @@ site.data.members
       {% endif %}
     {% endfor %}
 </ul>
-
+...
 
 ## Coordenação das atividades integradoras:
 
+...
 <ul>
     {% for member in site.data.members %}
       {% if member.role == "Coordenação das atividades integradoras" AND member.status == "ativo" %}
@@ -42,9 +45,9 @@ site.data.members
       {% endif %}
     {% endfor %}
 </ul>
-
+...
 ## Membros anteriores
-
+...
 <ul>
     {% for member in site.data.members %}
       {% if member.status == "inativo" %}
@@ -54,3 +57,4 @@ site.data.members
       {% endif %}
     {% endfor %}
 </ul>
+...
