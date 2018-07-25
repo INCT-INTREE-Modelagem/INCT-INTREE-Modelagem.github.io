@@ -41,7 +41,7 @@ site.data.members
 <ul>
     {% for member in site.data.members %}
       {% if member.role == "Coordenação das atividades integradoras"  %}
-     {% ifmember.status == "ativo"%}
+     {% if member.status == "ativo"%}
         <li>
               <a>{{ member.name }}<a/>  - {{member.Institution}}
         </li>
