@@ -41,11 +41,11 @@ site.data.members
 <ul>
     {% for member in site.data.members %}
       {% if member.role == "Coordenação das atividades integradoras"  %}
-     {% if member.status == "ativo"%}
-        <li>
+        {% if member.status == "ativo" %}
+           <li>
               <a>{{ member.name }}<a/>  - {{member.Institution}}
-        </li>
-      {% endif %}
+           </li>
+        {% endif %}
       {% endif %}
     {% endfor %}
 </ul>
