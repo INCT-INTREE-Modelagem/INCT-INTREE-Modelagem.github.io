@@ -3,6 +3,21 @@ title: Membros do PI de Modelagem
 site.data.members
 ---
 
+{% assign membros = site.data.members | group_by: 'role' %}
+{% for cat in membros %}
+<h2>{{ cat.name | capitalize }}</h2>
+    <ul>
+      {% assign items = cat.name | sort: 'order' %}
+      {% for item in items %}
+        <li><a href="{{ item.website }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}
+
+
+
+
+
 ## Coordenação Geral:
 
 <ul>
