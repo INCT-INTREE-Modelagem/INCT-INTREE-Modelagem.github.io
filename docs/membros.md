@@ -6,15 +6,16 @@ site.data.members
 
 {% assign membros = site.data.members | group_by: 'role' %}
 {% for cat in membros %}
-<h2>{{ cat.name }}</h2>
+{{ cat.name }} 
     <ul>
       {% assign items = cat.name %}
       {% for item in items %}
         <li>
             <a>{{ member.name }}<a/>  - {{member.Institution}}
-                </li>
+        </li>
       {% endfor %}
     </ul>
+    
 {% endfor %}
 
 ## Coordenação Geral:
@@ -40,6 +41,8 @@ site.data.members
         {% if member.status == "ativo" %}
            <li>
               <a>{{ member.name }}<a/>  - {{member.Institution}}
+                  
+                  
            </li>
         {% endif %}
       {% endif %}
