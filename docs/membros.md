@@ -8,10 +8,10 @@ site.data.members
     {% for member in site.data.members %}
       {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras" %}
         <li>
-          <a>
-            {{ member.name }}
-          </a>
-  </li>
+          <a>{{ member.name }}<a/>
+            
+            {{member.institution}}
+          </li>
       {% endif %}
     {% endfor %}
 </ul>
@@ -21,9 +21,9 @@ site.data.members
     {% for member in site.data.members %}
       {% if member.role == "Coordenação das atividades integradoras" %}
         <li>
-          <a>
-            {{ member.name }}
-          </a>
+            <a>{{ member.name }}<a/>
+            
+            {{member.institution}}
   </li>
       {% endif %}
     {% endfor %}
