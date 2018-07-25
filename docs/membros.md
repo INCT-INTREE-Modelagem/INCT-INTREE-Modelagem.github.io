@@ -7,7 +7,7 @@ title: Membros do PI de Modelagem
 <ul>
     {% for member in site.data.members %}
     {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras"  and member.status == "ativo" %}
-    <li><a>{{ member.name }}<a/>  - {{member.Institution}}  </li>
+    <li>{{ member.name }}  - {{member.Institution}}  </li>
     {% endif %}
     {% endfor %}
 </ul>  
@@ -16,7 +16,7 @@ title: Membros do PI de Modelagem
     {% for member in site.data.members %}  
       {% if member.role == "Coordenação das atividades integradoras"  %}  
         {% if member.status == "ativo" %}  
-           <li><a>{{ member.name }}<a/>  - {{member.Institution}}</li>  
+           <li>{{ member.name }}  - {{member.Institution}}</li>  
         {% endif %}  
       {% endif %}  
     {% endfor %}  
