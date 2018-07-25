@@ -11,15 +11,12 @@ site.data.members
     <ul>
       {% assign items = cat.name %}
       {% for item in items %}
-        <li><a href="{{ item.website }}">{{ item.name }}</a></li>
+        <li>
+            <a>{{ member.name }}<a/>  - {{member.Institution}}
+                </li>
       {% endfor %}
     </ul>
 {% endfor %}
-
-...
-
-
-
 
 ## Coordenação Geral:
 ...
@@ -32,11 +29,11 @@ site.data.members
       {% endif %}
     {% endfor %}
 </ul>
-...
+
 
 ## Coordenação das atividades integradoras:
 
-...
+
 
 <ul>
     {% for member in site.data.members %}
@@ -50,9 +47,9 @@ site.data.members
     {% endfor %}
 </ul>
 
-...
+
 ## Membros anteriores
-...
+
 <ul>
     {% for member in site.data.members %}
       {% if member.status == "inativo" %}
@@ -62,4 +59,3 @@ site.data.members
       {% endif %}
     {% endfor %}
 </ul>
-...
