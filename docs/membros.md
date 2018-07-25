@@ -10,11 +10,9 @@ title: Membros do PI de Modelagem
     <li><a>{{ member.name }}<a/>  - {{member.Institution}}  </li>
     {% endif %}
     {% endfor %}
-</ul>  
-
----
-
-## Coordenação das atividades integradoras:  
+</ul>
+---  
+### Coordenação das atividades integradoras:
 <ul>
     {% for member in site.data.members %}  
       {% if member.role == "Coordenação das atividades integradoras"  %}  
@@ -27,7 +25,7 @@ title: Membros do PI de Modelagem
 
 ---
 
-## Membros anteriores  
+### Membros anteriores  
 
 <ul>
     {% for member in site.data.members %}
