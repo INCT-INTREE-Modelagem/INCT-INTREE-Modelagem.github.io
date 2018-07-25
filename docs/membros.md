@@ -1,20 +1,21 @@
 ---
 title: Membros do PI de Modelagem
-site.data.members
 ---
-# Membros
+## Membros
 
 {% assign membros = site.data.members | group_by: 'role' %}
 {% for cat in membros %}
-{{ cat.name }} 
-    <ul>
-      {% assign items = cat.name %}
-      {% for item in items %}
-        <li>
-            <a>{{ member.name }}<a/>  - {{member.Institution}}
-        </li>
-      {% endfor %}
-    </ul>
+{{ cat.name }}
+<ul>
+    {% assign items = cat.name %}
+    {% for item in items %}
+    <li>
+        <a>
+            {{ member.name }}
+            <a/> - {{member.Institution}}
+    </li>
+    {% endfor %}
+</ul>
     
 {% endfor %}
 
