@@ -1,30 +1,13 @@
 ---
 title: Membros do PI de Modelagem
 ---
-## Membros
-
-{% assign membros = site.data.members | group_by: 'role' %}
-{% for cat in membros %}
-{{ site.data.members.name }}
-<ul>
-    {% assign items = cat.name %}
-    {% for item in items %}
-    <li>
-        <a>
-            {{ member.name }}
-            <a/> - {{member.Institution}}
-    </li>
-    {% endfor %}
-</ul>
-    
-{% endfor %}
 
 ## Coordenação Geral:
 
 <ul>
     {% for member in site.data.members %}
-      {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras"  AND member.status == "ativo" %}
-        <li>
+      {% if member.role == "Coordenação Geral e Coordenação das atividades integradoras"  and member.status == "ativo" %}
+    <li>
           <a>{{ member.name }}<a/>  - {{member.Institution}}
         </li>
       {% endif %}
