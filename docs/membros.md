@@ -30,6 +30,7 @@ Vitor Rios
   <li>
     <a href="https://github.com/{{ member.github }}">
       {{ member.name }}
+      {{member.role}}
     </a>
   </li>
 {% endfor %}
