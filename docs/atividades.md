@@ -16,11 +16,15 @@ Formação em modelagem computacional baseada em agentes, usando a linguagem Net
 #### Grupos de trabalho interdisciplinares
 Os pesquisadores do PI-Modelagem participam de trabalhos com outros projetos do INCT-INTREE
 
-+ Grupo 1
-  - membros
++ Padrões de complexidade espacial da bacia do Rio São Francisco
+  - Responsáveis:
+    - Elaine Cambui
+    - Rodrigo Nogueira de Vasconcelos 
 
-+ Grupo 2
-   - membros
++ Modelagem evolutiva do aprendizado de canto em aves
+   - Pietro Rebouças
+   - Flora Bacelar
+   - Hilton Japyassu
 
 ## Atividades de integração
 
