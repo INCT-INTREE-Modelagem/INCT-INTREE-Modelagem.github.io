@@ -20,11 +20,14 @@ Os pesquisadores do PI-Modelagem participam de trabalhos com outros projetos do 
   - Responsáveis:
     - Elaine Cambui
     - Rodrigo Nogueira de Vasconcelos 
+  - Alunos
+     -
 
 + Modelagem evolutiva do aprendizado de canto em aves
    - Pietro Rebouças
    - Flora Bacelar
    - Hilton Japyassu
+   - Vitor Rios
 
 ## Atividades de integração
 
