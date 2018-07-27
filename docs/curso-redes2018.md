@@ -2,15 +2,17 @@
 title: Teoria de Redes
 ---
 
-Professores: Hernane B.B. Pereira
+Professores: Hernane B.B. Pereira  
+
 Carga Horária: 20 horas
 
-Período: 16/08 a 30/08 de 2018
+Período: 15, 16 22 23 e 29 de agosto de 2018
 
-Horário: tardes
+Horário: 14:00 as 18:00
 
 Local: SENAI CIMATEC
 
+[Link para inscrição](http://www.inct-intree-modelagem.ufba.br/)
 
 ### Resumo:
 Este mini-curso tem caráter introdutório e seu objetivo é apresentar alguns modelos baseados em redes sociais e/ou complexas de modo a entender como se estabelecem as relações entre entidades (e.g. atores, conceitos, neurônios, etc.) e quais os fundamentos epistemológicos e os métodos e técnicas que facilitem a análise de redes sociais e/ou complexas. Serão apresentados conceitos fundamentais sobre teoria dos grafos, redes sociais e redes complexas, assim como alguns índices usados para caracterizar topologicamente as redes estudadas e analisar, em distintos níveis de detalhes, as características que podem ressaltar propriedades emergentes e/ou determinantes das redes estudadas. Para tanto, alguns softwares disponíveis (e.g. Pajek, Gephi, UCINET, SCNTools, etc.) serão usados na resolução dos execícios.
