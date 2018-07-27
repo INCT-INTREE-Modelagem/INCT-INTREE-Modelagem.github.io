@@ -6,7 +6,7 @@ Professores: Hernane B.B. Pereira
 
 Carga Horária: 20 horas
 
-Período: 15, 16 22 23 e 29 de agosto de 2018
+Período: 15, 16, 22, 23 e 29 de agosto de 2018
 
 Horário: 14:00 as 18:00
 
