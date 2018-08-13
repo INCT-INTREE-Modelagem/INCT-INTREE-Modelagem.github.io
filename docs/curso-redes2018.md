@@ -12,7 +12,7 @@ Horário: 14:00 as 18:00
 
 Local: SENAI CIMATEC
 
-[Link para inscrição](http://www.inct-intree-modelagem.ufba.br/) (Breve)
+[Link para inscrição](http://www.inct-intree-modelagem.ufba.br/) 
 
 Material necessário: levar laptop
 
