@@ -1,5 +1,5 @@
 ---
-title: Teoria de Redes
+title: Introdução à Teoria de Redes
 ---
 
 Professores: Hernane B.B. Pereira  
@@ -13,6 +13,8 @@ Horário: 14:00 as 18:00
 Local: SENAI CIMATEC
 
 [Link para inscrição](http://www.inct-intree-modelagem.ufba.br/) (Breve)
+
+Material necessário: levar laptop
 
 Caso não consiga fazer a inscrição, envie um email para pimodelagem@gmail.com
 
