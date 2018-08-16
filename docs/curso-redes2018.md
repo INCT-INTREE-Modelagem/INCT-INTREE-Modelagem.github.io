@@ -10,7 +10,18 @@ Período: 16, 22, 23, 29 e 30 de agosto de 2018
 
 Horário: 14:00 as 18:00
 
-Local: SENAI CIMATEC
+Local: SENAI CIMATEC  
+
+dia 16 - sala 211  
+
+dia 22 - sala 1111  
+
+dia 23 - sala 1111  
+
+dia 29 - sala 211  
+
+dia 30 - sala 119
+
 
 [Link para inscrição](http://www.inct-intree-modelagem.ufba.br/) 
 
