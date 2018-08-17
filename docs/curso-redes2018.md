@@ -14,7 +14,7 @@ Local: SENAI CIMATEC
 
 dia 16 - edifício 2, 2º andar sala 6  
 
-dia 22 - edifício 1, 1º andar sala 1
+dia 22 - edifício 1, 1º andar sala 1 (início 14:30)
 
 dia 23 - edifício 1, 1º andar sala 1  
 
