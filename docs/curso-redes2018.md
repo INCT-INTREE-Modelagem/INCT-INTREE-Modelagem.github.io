@@ -12,15 +12,15 @@ Horário: 14:00 as 18:00
 
 Local: SENAI CIMATEC  
 
-dia 16 - sala 211  
+dia 16 - edifício 2, 2º andar sala 6  
 
-dia 22 - sala 1111  
+dia 22 - edifício 1, 1º andar sala 1
 
-dia 23 - sala 1111  
+dia 23 - edifício 1, 1º andar sala 1  
 
-dia 29 - sala 211  
+dia 29 - edifício 2, 1º andar sala 1  
 
-dia 30 - sala 119
+dia 30 - edifício 1, 1º andar sala 9
 
 
 [Link para inscrição](http://www.inct-intree-modelagem.ufba.br/) 
